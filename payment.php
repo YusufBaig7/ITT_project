@@ -42,7 +42,7 @@ echo "<p style='color:gold;font-family:impact;font-size:15px'>Please fill out th
 
 <label>Select your NGO: </label><br/>
 <select name="ngo">
-<option>Sarthak Foundation</option><option>Humsafar</option><option>Pratham</option>
+<option>Sarthak Foundation</option><option>Humsafar big chomd pp</option><option>Pratham</option>
 
 <option>Dada-Dadi </option>
 <option>NHFDC</option>
