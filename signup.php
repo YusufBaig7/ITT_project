@@ -25,7 +25,7 @@ $res=register($con,$mail);
         <nav>
           <a href="index.php"><img src = "images/cat.png"; height=70px; width=70px></a>
           <div class="logo">
-            Signup karlo plz
+            Signup mat karo bois
           </div>
 
           <ul class="nav-items">
