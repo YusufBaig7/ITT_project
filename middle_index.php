@@ -16,7 +16,7 @@
       <div class="wrapper">
         <nav>
           <div class="logo">
-            feed the kitty
+            Feed the kitty
 
           </div>
 
@@ -48,7 +48,7 @@
       <div class="wrapper">
         <header>
           <div class="hero-content">
-          <br><br><br><br><br><br><br><br><br><h1>We here at Feed the kitty,</h1>
+          <br><br><br><br><br><br><br><br><br><h1>feed the kitty follows the sustainable development goals,</h1>
             <p>
               Try to bring together donors and recipients, you can register for either.
               All of our recipients go through proper authentification to make sure all of them are genuine<br>
@@ -60,7 +60,19 @@
           </div>
 
           <div class="hero-image">
-            <img src="images/arrow.png" alt="" / height="530" width="530">
+            <img src="images/no_pov.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+          <div class="hero2-image">
+            <img src="images/zero_hun.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+          <div class="hero1-image">
+            <img src="images/qual_ed.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+          <div class="hero3-image">
+            <img src="images/clim_ac.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
         </header>

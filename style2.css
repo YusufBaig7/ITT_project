@@ -37,7 +37,7 @@
   nav .logo {
     font-family: arial;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 200;
     font-size: 55px;
     color: #021718;
   }
@@ -77,11 +77,12 @@
   }
   
   header h1 {
-    font-weight: 900;
-    font-size: 64px;
-    line-height: 75px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
     color: #fffffa;
     margin-bottom: 24px;
+    text-align: left;
   }
   
   header p {
@@ -89,7 +90,7 @@
     line-height: 42px;
     color: #fffffa;
     width: 418px;
-  
+    text-align: left;
     margin-bottom: 48px;
   }
   
@@ -133,8 +134,9 @@
   header .hero-image img {
     transition: 300ms;
     position: relative;
-    z-index: 100;
-    top: 70px;
+    z-index: 200;
+    top: -70px;
+    left: 160px;
     
   }
   
@@ -144,10 +146,10 @@
   
   header .hero-image .photo-bg {
     position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 45px;
-    top: 100px;
+    width: 150px;
+    height: 150px;
+    left: 160px;
+    top: -70px;
   
     background: #44a1a0;
     transform: rotate(-6deg);
@@ -260,8 +262,8 @@
     text-align:center;
     margin-left:400px;
     color:#fff;
-    font-weight:100;
-    font-size:2em; 
+    font-weight:11;
+    font-size: 0.4em;; 
     margin-bottom:10px;
   }
   
@@ -370,4 +372,89 @@
     margin-top: 10px;
   }
   
+  header .hero1-image {
+    position: relative;
+  }
   
+  header .hero1-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: 140px;
+    left: -140px;
+    
+  }
+  
+  header .hero1-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero1-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -140px;
+    top: 140px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+  
+  /*avoid confusion*/
+
+  header .hero2-image {
+    position: relative;
+  }
+  
+  header .hero2-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: -70px;
+    left: 230px;
+    
+  }
+  
+  header .hero2-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero2-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 230px;
+    top: -70px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+  /*avoid confusion*/
+
+   header .hero3-image {
+    position: relative;
+  }
+  
+  header .hero3-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: 140px;
+    left: -70px;
+    
+  }
+  
+  header .hero3-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero3-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -70px;
+    top: 140px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
