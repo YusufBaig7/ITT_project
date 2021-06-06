@@ -222,9 +222,9 @@ header .hero-image .photo-bg {
 
 /* Hidden Items */
 
-.search-box {
-  /* display: none; */
-}
+/* .search-box {
+   display: none; 
+}*/
 
 #block{
 height:70px;
@@ -342,5 +342,26 @@ input[type=checkbox] {
     top:-10px; 
 }
 
-
+label {
+  color: #fff;
+  margin-left: 20px;
+  text-align: left;
+  width: 100px; 
+  display: block;
+  float: right;
+  clear: left;
+  margin-right: 100px;
+  cursor: pointer
+}
+ */
+ /* .custom-select {
+  position: relative;
+  font-family: Arial;
+} */
+/* select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* Remove default arrow 
+  background-image: url("E:\Code\ITT_project\images\arrow.png");   /* Add custom arrow 
+} */
 

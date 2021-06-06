@@ -1,7 +1,7 @@
 <?php
 include "work.php";
 include "connect.php";
-include("mail.php");
+include ("mail.php");
 $res=register($con,$mail);
 
 
@@ -67,7 +67,7 @@ $res=register($con,$mail);
           </div>
           <div class="container">
             <!-- <h2>It's now or never</h2> -->
-                <h1><center>Signup </center></h1>
+                <!-- <h1><center>Signup </center></h1> -->
             	<!-- <div id="form"> -->
 				<form method = "POST" action="login.php">
               <div class="fields">
@@ -80,15 +80,27 @@ $res=register($con,$mail);
               </span>
               <br />
                 <span>
-                  <input placeholder="ConfirmPassword" type="password" required  />
+                  <input placeholder=" Phone Number" type="tel" required  />
               </span>
               <br />
                 <span>
                   <input placeholder="Email" type="Email" required  />
               </span>
               <br />
+              <span>
+              <!-- <div class="custom-select" style="width:200px;"> -->
+              <label>
+			        <select name="g">
+              <option value="0">Status</option>  
+			        <option value="C">Charity/Organisation</option>
+			        <option value="F">Family</option>
+              <option value="D">Donor</option>
+              </label>
+            </select><br><br/>
+              <!-- </div> -->
+              </span>
                 <span>
-                  <input placeholder="Occupation" type="text" required  />
+                  <input placeholder="Account Number" type="text" required  />
               </span>
    			<!-- <label>Gender *:</label>
 			<select name="g">
