@@ -48,11 +48,9 @@
       <div class="wrapper">
         <header>
           <div class="hero-content">
-          <br><br><br><br><br><br><br><br><br><h1>feed the kitty follows the sustainable development goals,</h1>
+          <br><br><br><br><br><br><br><br><br><h1>How we function</h1>
             <p>
-              Try to bring together donors and recipients, you can register for either.
-              All of our recipients go through proper authentification to make sure all of them are genuine<br>
-              Lets get started!  
+              Here we try to reach NGO's, families, organisations etc. <br>that are in potential need of funds/monetary help to help them sustain better<br> For that we strictly follow the  17 SDG guidelines for all the activities that we adhere to  
             </p>
             <a href="#">
               Contact Us
