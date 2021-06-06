@@ -31,38 +31,38 @@ $r=infom($con,$email);
 </div>
 <hr>
 <center><a href="index.php"><img src = "images/cat.png"; height=70px; width=70px></a>
-<p style="color:gold;font-size:50px;font-family:reem kufi">Donation Details</p></center>
+<p style="color:navy;font-size:50px;font-family:reem kufi">Donation Details</p></center>
 <center><div id="come">
 <div id="form">
-<form method="POST" action="info.php">
-<?php
-echo "<p style='color:orange;font-size:25px'><b>Hello $n,</strong></p></b>";
-echo "<p style='color:gold;font-family:impact;font-size:15px'>Please fill out the below details to carry out your Good Work</p>";
-?>
+<form method="POST" action="middle_index.php">
 
-<label>Select your NGO: </label><br/>
+<p style='color:navy;font-size:25px'><b>Hello</strong></p></b>
+<p style='color:navy;font-family:impact;font-size:15px'>Please fill out the below details to carry out your Good Work</p>
+
+
+<label style='color:navy;font-size:20px'>Select your NGO: </label><br/>
 <select name="ngo">
-<option>Sarthak Foundation</option><option>Humsafar big pp</option><option>Pratham</option>
+<option>Sarthak Foundation</option><option>Humsafar</option><option>Pratham</option>
 
 <option>Dada-Dadi </option>
 <option>NHFDC</option>
 </select>
 
 <br/><br/>
-<label>Mobile Number: </label><br/>
-<input type="text" name="number" class="inputFields" required /><br><br/>
-<label>Aadhar Number: </label><br/>
-<input type="text" name="aadhar" class="inputFields" required /><br><br/>
-<label>Donation Amount: </label><br/>
-<input type="text" name="amount" class="inputFields" required/><p style='font-size:15px'>Example:10000,50000,100000</p>
+<label style='color:navy;font-size:20px'>Account Number: </label><br/>
+<input type="Number" name="number" class="inputFields" required /><br><br/>
+<label style='color:navy;font-size:20px'>cvv: </label><br/>
+<input type="password" name="aadhar" class="inputFields" required /><br><br/>
+<label style='color:navy;font-size:20px'>Donation Amount: </label><br/>
+<input type="Number" name="amount" class="inputFields" required/><p style='font-size:15px'>Example:10000,50000,100000</p>
 <input type="checkbox" name="condition" required/>I have read through the website's Privacy Policy &<br/>
  Donor's Policy and Terms and Conditions to make a donation.<br><br/>
-<input type="submit" class="thebuttons" name="submit" value="Make Payment" /><br>
-<?php
+      <button onclick="document.location=middle_index.php">Submit</button><br><br/>
+      
 
-echo "<p style='color:red'>$r</p>";
 
-?>
+
+
 </div>
 </div>
 </center>

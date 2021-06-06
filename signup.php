@@ -71,6 +71,10 @@ $res=register($con,$mail);
             	<!-- <div id="form"> -->
 				<form method = "POST" action="login.php">
               <div class="fields">
+              <span>
+                  <input placeholder="FullName" type="text"  required />
+              </span>
+              <br />
                 <span>
                   <input placeholder="Username" type="text"  required />
               </span>
