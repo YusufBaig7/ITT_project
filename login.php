@@ -91,8 +91,8 @@ else{
                   <input placeholder="Password" type="password" required  />
               </span>
               </div>
-              <div class="submit">
-                <input class="submit" value="Submit" type="button" />
+              <div class = "eee2">
+              <a href="middle_index.php">Submit</a><br><br/>
                 <?php
                 echo $a;
                 ?>
