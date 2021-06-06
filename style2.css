@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Navigation */
+  
+  .nav-container {
+    background: #fffffa;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 72px;
+    margin-top: -35px;
+    z-index: 500;
+    position: relative;
+  }
+  
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav .logo {
+    font-family: arial;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    color: #021718;
+  }
+  
+  .nav-items li {
+    list-style: none;
+    margin-right: 100px;
+  }
+  
+  .nav-items li:nth-last-of-type(1) {
+    margin: 0;
+  }
+  
+  .nav-items li a {
+    color: #021718;
+    font-size: 24px;
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+  }
+  
+  /* Header */
+  
+  .header-container {
+    background: #161549 url("images/bg-shape.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #fffffa;
+    margin-bottom: 24px;
+  }
+  
+  header p {
+    font-size: 24px;
+    line-height: 42px;
+    color: #fffffa;
+    width: 418px;
+  
+    margin-bottom: 48px;
+  }
+  
+  header a {
+    color: #fffffa;
+    font-size: 24px;
+    text-decoration: none;
+  
+    background: #01847f;
+    border-radius: 8px;
+    padding: 12px 48px;
+    display: inline-block;
+    transition: 300ms;
+  }
+  
+  header a:hover {
+    transform: translateY(-8px);
+  }
+  
+  /* Social Icons */
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    margin: 80px 54px;
+  }
+  
+  .social-icons a:nth-of-type(1) {
+    margin-left: 0;
+  }
+  
+  /* Hero image */
+  
+  header .hero-image {
+    position: relative;
+  }
+  
+  header .hero-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 100;
+    top: 70px;
+    
+  }
+  
+  header .hero-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero-image .photo-bg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 45px;
+    top: 100px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+  
+  /* Search Box */
+  
+  .search-box {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+    top: 0;
+    z-index: 101;
+  
+    transition: 300ms;
+  }
+  
+  .search-box.active {
+    top: 102px;
+  }
+  
+  .search-box input {
+    background: #fffffa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 8px 8px;
+  
+    font-size: 24px;
+    line-height: 42px;
+    border: 0;
+    padding: 12px 48px;
+  }
+  
+  .search-box input::placeholder {
+    color: #b3b3b3;
+  }
+  
+  /* Search & Close Buttons */
+  
+  .nav-btn-container {
+    display: flex;
+    position: relative;
+  }
+  
+  .nav-btn-container img {
+    position: absolute;
+  }
+  
+  .nav-btn-container .close-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+    transition: 300ms;
+  }
+  
+  .nav-btn-container .search-btn {
+    pointer-events: auto;
+    transition: 300ms;
+  }
+  
+  .nav-btn-container.active .search-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-8px);
+  }
+  
+  .nav-btn-container.active .close-btn {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+  
+  /* Hidden Items */
+  
+  /* .search-box {
+     display: none; 
+  }*/
+  
+  #block{
+  height:70px;
+  background-color:#FFFFFF;
+  /* border:0px solid #8c8b8b; */
+  /* box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1); */
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+  
+  @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+  
+  html, body{
+    background:#2F1E27;
+  }
+  
+  body{
+    counter-reset:section;
+    text-align:center;
+    
+  }
+  
+  .container{
+    position:center;
+    top:30px;
+  }
+  
+  .container h1, .container span{
+    font-family:"Pt Sans", helvetica, sans-serif;
+  }
+  
+  .container h1{
+    text-align:center;
+    margin-left:400px;
+    color:#fff;
+    font-weight:100;
+    font-size:2em; 
+    margin-bottom:10px;
+  }
+  
+  .container h2{
+    font-family:"droid serif";
+    font-style:italic;
+    color:#FFFFFF; 
+    text-align:right;
+    font-size:1.2em;
+  }
+  
+  .container form span:before {
+    counter-increment:section;
+    content:counter(section);
+    border:2px solid #4c2639;
+    width:40px;
+    height:40px;
+    color:#fff;
+    display:inline-block;
+    border-radius:50%;
+    line-height:1.6em;
+    font-size:1.5em;
+    position:relative;
+    left:-22px;
+    top:-11px;
+    background:#2F1E27;
+  }
+  
+  form{
+    margin-top:12px;
+    display:inline-block;
+  }
+  
+  .fields{
+    border-left:2px solid #4c2639
+  }
+  
+  .container span{
+      margin-bottom:22px;
+      margin-left: 400px;
+      display:inline-block;
+  }
+  
+  .container span:last-child{
+     margin-bottom:-11px;
+  }
+  
+  input{
+    border:none;
+    outline:none;
+    display:inline-block;
+    height:34px;
+    vertical-align:middle;
+    position:relative;
+    bottom:14px;
+    right:9px;
+    border-radius:22px;
+    width:220px;
+    box-sizing:border-box;
+    padding:0 18px; 
+  }
+  
+  input[type="button"]{ 
+    background:rgba(197,62,126,.33) ! important;
+    color:#fff;
+    position:relative;
+    left:210px;
+    top:20px; 
+    width:100px;
+    cursor:pointer;
+  }
+  
+  input[type=checkbox] {
+      position: relative;
+      color:white;
+      font-family: Consolas, Baskerville, 'Segoe UI', sans-serif;
+      left:200px;
+      top:-10px; 
+  }
+  
+  label {
+    color: #fff;
+    margin-left: 20px;
+    text-align: left;
+    width: 100px; 
+    display: block;
+    float: right;
+    clear: left;
+    margin-right: 100px;
+    cursor: pointer
+  }
+  
+   /* .custom-select {
+    position: relative;
+    font-family: Arial;
+  } 
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;      Remove default arrow 
+    background-image: url("E:\Code\ITT_project\images\arrow.png"); Add custom arrow 
+  }*/
+   .eee{
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+  

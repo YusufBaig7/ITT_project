@@ -110,8 +110,10 @@ $res=register($con,$mail);
 			<label>Birthday *:</label>
 			<pre style="font-size:10px"><input type="text" name="birthday" class="inputFields" required/> Example:06/12/1996</pre> -->
 			<br><input type="checkbox" name="terms" class= "checkbox" required/><h2>I agree with terms and conditions.</h2>
-			<input type="button"  value = "Submit" name="submit" class="button"/><br><br/>
-			</div>
+			<div class = "eee">
+      <a href="middle_index.php">Submit</a><br><br/>
+      </div>
+      </div>
 
 			<?php
 			echo $res;

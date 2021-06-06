@@ -353,15 +353,20 @@ label {
   margin-right: 100px;
   cursor: pointer
 }
- */
+
  /* .custom-select {
   position: relative;
   font-family: Arial;
-} */
-/* select {
+} 
+select {
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;       /* Remove default arrow 
-  background-image: url("E:\Code\ITT_project\images\arrow.png");   /* Add custom arrow 
-} */
+  appearance: none;      Remove default arrow 
+  background-image: url("E:\Code\ITT_project\images\arrow.png"); Add custom arrow 
+}*/
+ .eee{
+  margin-left: 400px;
+  margin-right: auto;
+  margin-top: 10px;
+}
 
