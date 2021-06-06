@@ -50,7 +50,8 @@
           <div class="hero-content">
           <br><br><br><br><br><br><br><br><br><h1>How we function</h1>
             <p>
-              Here we try to reach NGO's, families, organisations etc. <br>that are in potential need of funds/monetary help to help them sustain better<br> For that we strictly follow the  17 SDG guidelines for all the activities that we adhere to  
+              Here we try to reach NGO's, families, organisations etc. <br>that are in potential need of funds/monetary help to help them sustain better.<br> For that we strictly follow the  17 SDG guidelines for all the activities that we adhere to.<br><br>
+              Click on each of the SDG to know more about them!  
             </p>
             <a href="#">
               Contact Us
@@ -73,6 +74,26 @@
             <img src="images/clim_ac.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          <div class="hero4-image">
+            <img src="images/gen_eq.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+          <div class="hero5-image">
+            <img src="images/clean_wat.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+          <div class="hero6-image">
+            <img src="images/lif_lan.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          <div class="hero7-image">
+            <img src="images/life_wat.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+          <div class="hero8-image">
+            <img src="images/sdg.png" alt=""  height="150" width="150"/>
+            <div class="photo-bg"></div>
+          </div>
+
         </header>
 
         <div class="social-icons">

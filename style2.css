@@ -86,10 +86,10 @@
   }
   
   header p {
-    font-size: 24px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 30px;
     color: #fffffa;
-    width: 418px;
+    width: 450px;
     text-align: left;
     margin-bottom: 48px;
   }
@@ -380,7 +380,7 @@
     transition: 300ms;
     position: relative;
     z-index: 200;
-    top: 140px;
+    top: 120px;
     left: -140px;
     
   }
@@ -394,7 +394,7 @@
     width: 150px;
     height: 150px;
     left: -140px;
-    top: 140px;
+    top: 120px;
   
     background: #44a1a0;
     transform: rotate(-6deg);
@@ -439,7 +439,7 @@
     transition: 300ms;
     position: relative;
     z-index: 200;
-    top: 140px;
+    top: 120px;
     left: -70px;
     
   }
@@ -453,7 +453,155 @@
     width: 150px;
     height: 150px;
     left: -70px;
-    top: 140px;
+    top: 120px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+/*avoid confusion*/
+
+   header .hero4-image {
+    position: relative;
+  }
+  
+  header .hero4-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: 305px;
+    left: -430px;
+    
+  }
+  
+  header .hero4-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero4-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -430px;
+    top: 305px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+
+  /*avoid confusion*/
+
+  header .hero5-image {
+    position: relative;
+  }
+  
+  header .hero5-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: -70px;
+    left: -170px;
+    
+  }
+  
+  header .hero5-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero5-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -170px;
+    top: -70px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+  /*avoid confusion*/
+
+  header .hero6-image {
+    position: relative;
+  }
+  
+  header .hero6-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: 270px;
+    left: -300px;
+    
+  }
+  
+  header .hero6-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero6-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -300px;
+    top: 270px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+
+  /*avoid confusion*/
+
+  header .hero7-image {
+    position: relative;
+  }
+  
+  header .hero7-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: 305px;
+    left: -500px;
+    
+  }
+  
+  header .hero7-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero7-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -500px;
+    top: 305px;
+  
+    background: #44a1a0;
+    transform: rotate(-6deg);
+  }
+
+  /*avoid confusion*/
+
+  header .hero8-image {
+    position: relative;
+  }
+  
+  header .hero8-image img {
+    transition: 300ms;
+    position: relative;
+    z-index: 200;
+    top: 150px;
+    left: -280px;
+    
+  }
+  
+  header .hero8-image img:hover {
+    transform: rotate(-6deg);
+  }
+  
+  header .hero8-image .photo-bg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: -280px;
+    top: 150px;
   
     background: #44a1a0;
     transform: rotate(-6deg);
