@@ -53,46 +53,60 @@
               Here we try to reach NGO's, families, organisations etc. <br>that are in potential need of funds/monetary help to help them sustain better.<br> For that we strictly follow the  17 SDG guidelines for all the activities that we adhere to.<br><br>
               Click on each of the SDG to know more about them!  
             </p>
-            <a href="#">
-              Contact Us
-            </a>
           </div>
-
+          <a href = "https://www.globalgoals.org/1-no-poverty">
           <div class="hero-image">
             <img src="images/no_pov.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/2-zero-hunger">
           <div class="hero2-image">
             <img src="images/zero_hun.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/4-quality-education">
           <div class="hero1-image">
             <img src="images/qual_ed.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/13-climate-action">
           <div class="hero3-image">
             <img src="images/clim_ac.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/5-gender-equality">
           <div class="hero4-image">
             <img src="images/gen_eq.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/6-clean-water-and-sanitation">
           <div class="hero5-image">
             <img src="images/clean_wat.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/15-life-on-land">
           <div class="hero6-image">
             <img src="images/lif_lan.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
+            </a>
+          <a href = "https://www.globalgoals.org/14-life-below-water">
           <div class="hero7-image">
             <img src="images/life_wat.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
+          <a href = "https://www.globalgoals.org/">
           <div class="hero8-image">
             <img src="images/sdg.png" alt=""  height="150" width="150"/>
             <div class="photo-bg"></div>
           </div>
+          </a>
 
         </header>
 
