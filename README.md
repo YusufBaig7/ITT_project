@@ -1,1 +1,1 @@
-#A webpage that helps to make charity/donation easier
+# A webpage that helps to make charity/donation easier
